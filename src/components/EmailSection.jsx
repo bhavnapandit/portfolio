@@ -49,9 +49,9 @@ const EmailSection = () => {
           </Link>
         </div>
 
-        <button className="px-6 py-3 mr-8 mt-2 w-full sm:w-fit rounded-full text-white bg-pink-500">
+        <Link className="px-6 py-2 mr-8 mt-2  w-full sm:w-fit rounded-full text-white bg-pink-500 hover:bg-slate-400" href='https://www.linkedin.com/in/bhavna-pandit-470285235/' >
           Contact Me
-        </button>
+        </Link>
       </div>
     </section>
   );

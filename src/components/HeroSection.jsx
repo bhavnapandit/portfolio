@@ -43,7 +43,7 @@ const HeroSection = () => {
           <div className="">
             <button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-pink-500 to-purple-500 hover:bg-slate-800 text-white mt-2">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                <Link href="https://drive.google.com/file/d/1llfIF-6MFnrlXq-gWqFxGnZEQ7WNXXvh/view?usp=drive_link">Download CV</Link>
+                <Link href="https://drive.google.com/file/d/19vf_t6cf83uGC6bKLO0jDXXEIim1Czzj/view?usp=sharing">Download CV</Link>
               </span>
             </button>
           </div>

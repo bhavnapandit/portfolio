@@ -9,42 +9,57 @@ const projectData = [
     description: "HTML-CSS-JAVASCRIPT",
     image: "/project/p1.png",
     gitUrl: "https://github.com/bhavnapandit/food-website.git",
+    previewUrl: "https://food-website-black-psi.vercel.app/"
   },
   {
     id: 2,
-    title: "Editorial Website Template",
-    description: "HTML-CSS-JAVASCRIPT",
-    image: "/project/p2.png",
-    gitUrl: "/",
+    title: "Travel Website",
+    description: "NEXT.JS",
+    image: "/project/p7.png",
+    gitUrl: "https://github.com/bhavnapandit/travel.git",
+    previewUrl: "https://travel-beta-indol.vercel.app/"
   },
   {
     id: 3,
+    title: "Portfolio",
+    description: "Next.js-Tailwind",
+    image: "/project/p8.png",
+    gitUrl: "https://github.com/bhavnapandit/portfolio.git",
+    previewUrl: "https://portfolio-lake-gamma-36.vercel.app/"
+  },
+  {
+    id: 4,
     title: "Tic Tac Toe",
     description: "HTML-CSS-JAVASCRIPT",
     image: "/project/p3.png",
     gitUrl: "https://github.com/bhavnapandit/tic-tac-toe.git",
-  },
-  {
-    id: 4,
-    title: "Pet-Shelter-Management",
-    description: "Java-Hibernate-Junit-Spring Boot-Postman",
-    image: "/project/p4.png",
-    gitUrl: "https://github.com/bhavnapandit/Pet-Rescue-And-Shelter-Management-System.git",
+    previewUrl: "https://organized-curly-carnation.glitch.me/"
   },
   {
     id: 5,
-    title: "Free Code-learning Websites",
-    description: "Angular-Bootstrap",
-    image: "/project/p5.png",
-    gitUrl: "/",
-  },
-  {
-    id: 6,
     title: "Weather App",
     description: " HTML-CSS-Javascript ",
     image: "/project/p6.png",
     gitUrl: "https://github.com/bhavnapandit/weatherApp.git",
+    previewUrl: "https://weather-app-theta-three-19.vercel.app/"
   },
+  {
+    id: 6,
+    title: "Pet-Shelter-Management",
+    description: "Java-Hibernate-Junit-Spring Boot-Postman",
+    image: "/project/p4.png",
+    gitUrl: "https://github.com/bhavnapandit/Pet-Rescue-And-Shelter-Management-System.git",
+    previewUrl: "/"
+  },
+  {
+    id: 7,
+    title: "Free Code-learning Websites",
+    description: "Angular-Bootstrap",
+    image: "/project/p5.png",
+    gitUrl: "/",
+    previewUrl: "/"
+  },
+ 
 ];
 const ProjectsSection = () => {
   const ref = useRef(null);
@@ -74,6 +89,7 @@ const ProjectsSection = () => {
               description={project.description}
               imgUrl={project.image}
               gitUrl={project.gitUrl}
+              previewUrl={project.previewUrl}
             />
           </motion.li>
         ))}
