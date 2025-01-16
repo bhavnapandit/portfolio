@@ -49,7 +49,7 @@ const EmailSection = () => {
                 together
               </h2>
               <motion.p
-                className="text-lg text-gray-300 mb-8 font-serif"
+                className="text-lg text-gray-300 mb-8 font-serif border-b-[.5px] border-gray-400"
                 whileHover={{ color: "#FFFFFF", transition: { duration: 0.3 } }}
               >
                 pritybhavna2001@gmail.com
